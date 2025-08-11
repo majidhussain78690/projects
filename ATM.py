@@ -56,13 +56,15 @@ def run_atm():
                 print(atm.withdraw(amount))
             except ValueError:
                 print("Invalid input. Please enter a numeric value.")
-        elif choice == '4':
-            print("Thank you for using our ATM. Goodbye!")
-            break
-        elif choice == "5":
+        elif choice == "4":
             print ("your account has been reset to :" , atm.delete_account(amount))
-        else:
-            print("Invalid choice. Please select a number between 1-5.")
+        elif choice == '5':
+            print("Thank you for using our ATM. Goodbye!")
+        break
+    else:
+        print("invalid number ,select from 1-5")
+        
+
 
 if __name__ == "__main__":
     run_atm()

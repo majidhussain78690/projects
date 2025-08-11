@@ -31,14 +31,15 @@ class ATM:
 
 def run_atm():
     atm = ATM()
+    name = input("please enter your name :")
     
     while True:
-        print("\nWelcome to the ATM")
+        print("\nWelcome to the ATM" , name)
         print("1. Check Balance")
         print("2. Deposit Money")
         print("3. Withdraw Money")
-        print("4. Exit")
-        print("5.delete account")
+        print("4. delete account")
+        print("5.Exit")
         
         choice = input("Please select an option (1-5): ")
         

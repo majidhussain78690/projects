@@ -60,7 +60,7 @@ def run_atm():
         elif choice == "4":
             print ("your account has been reset to :" , atm.delete_account(amount))
         elif choice == '5':
-            print("Thank you for using our ATM. Goodbye!" , name)
+            print("Thank you for using our ATM. Goodbye!" , "thankyou for patience")
         break
     else:
         print("invalid number ,select from 1-5" )

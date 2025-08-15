@@ -8,8 +8,8 @@ class ATM:
     def generate_default_accounts(self):
         """Generate 5 default accounts with random balances between 100 and 5000"""
         for i in range(1, 6):
-            account_id = f"DEFAULT{i}"
-            balance = round(random.uniform(100, 5000), 2)
+            account_id = f"Default{i}"
+            balance = round(random.uniform(100, 1000), 2)
             self.accounts[account_id] = balance
     
     def generate_account_id(self):
